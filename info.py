@@ -61,9 +61,9 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+sJOCf7vp4sdhM2Vl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+Fxa4IrH6obY4MWFl')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MAPOriginal')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Jpiz-WX76lMzYjJl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+nvmpM5XeI9I0NTk1l')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MAOriginal')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002081930046'))
@@ -105,8 +105,8 @@ else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "https://jishan202-2sck.onrender.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://jishan202-2sck.onrender.com/".format(FQDN, PORT)
+URL = "https://alinabot.onrender.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "https://alinabot.onrender.com/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
@@ -121,9 +121,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://jishan202-2sck.onrender.com/".format(FQDN)
+    URL = "https://alinabot.onrender.com/".format(FQDN)
 else:
-    URL = "https://jishan202-2sck.onrender.com/".format(FQDN)
+    URL = "https://alinabot.onrender.com/".format(FQDN)
 
 
 
