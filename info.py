@@ -1,4 +1,4 @@
-hi# Don't Remove Credit @movie_file_20
+# Don't Remove Credit @movie_file_20
 # Subscribe YouTube Channel For Amazing Bot @movie_file_20
 # Ask Doubt on telegram @KingVJ01
 
@@ -66,7 +66,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+nvmpM5XeI9I0NTk1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MAOriginal')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '1002016227618'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002072782451'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movie_fo')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
