@@ -30,8 +30,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔍 Gʀᴏᴜᴘ', url="https://t.me/mobizhub3"),
-                    InlineKeyboardButton('🎬 channel', url='https://t.me/+nvmpM5XeI9I0NTk1')
+                    InlineKeyboardButton('🔍 Gʀᴏᴜᴘ', url="https://t.me/+Jpiz-WX76lMzYjJl"),
+                    InlineKeyboardButton('🎬 channel', url='https://t.me/+l6hGshoi_PkyMTRl')
                 ],[
                     InlineKeyboardButton('🎉 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🎉', url=CHNL_LNK)
                   ]]
@@ -51,7 +51,7 @@ async def start(client, message):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                    InlineKeyboardButton('🔍 Gʀᴏᴜᴘ', url='https://t.me/mobizhub3')
+                    InlineKeyboardButton('🔍 Gʀᴏᴜᴘ', url='https://t.me/+Jpiz-WX76lMzYjJl')
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
